@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.imei-platform-form {
+  max-width: 760px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.imei-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.imei-field label {
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+}
+
+.imei-field input,
+.imei-field textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.imei-platform-form button {
+  background: #0b5ed7;
+  color: #fff;
+  border: 0;
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.imei-platform-result {
+  display: none;
+  margin-top: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+}
+
+.imei-platform-result.is-visible {
+  display: block;
+}
+
+.checkbox-row {
+  display: block;
+  margin: 1rem 0;
+}
